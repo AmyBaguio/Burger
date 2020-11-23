@@ -1,25 +1,24 @@
+<div class='row'>
+  <div class='col'>
+    <h2>Burgers CREATED!</h2>
 
-
-
-<h2>Burgers CREATED!</h2>
-
-<li>
-  {{#each burgers}}
+    {{#each burgers}}
     {{#unless devoured}}
-      {{> burger-block devoured=true}}
+    {{> burger-block devoured=true}}
     {{/unless}}
-  {{/each}}
-</li>
+    {{/each}}
+  </div>
+  <div class='col'>
 
-<h2>Burgers that's been DEVOURED!</h2>
+    <h2>Burgers that's been DEVOURED!</h2>
 
-<li>
-  {{#each burgers}}
+    {{#each burgers}}
     {{#if devoured}}
-      {{> burger-block devoured=false}}
+    {{> burger-block devoured=false}}
     {{/if}}
-  {{/each}}
-</li>
+    {{/each}}
+  </div>
+</div>
 
 <h2>ADD a Burger</h2>
 <form class="create-form">
