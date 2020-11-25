@@ -83,11 +83,11 @@ Please see [Heroku’s Account Verification Information](https://devcenter.herok
 
 ## To view the walkthrough video, please click on the link below
 
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
+* [Check out this video of the app for a run-through of how it works](https://drive.google.com/file/d/1Q87JesqcHY9Sbmj34a9ALtscERo0A7Wh/view).
 
 
 <br>
 
 ## Eat Da Burger APP Screenshot
 
-![App Screenshot](./Assets/MyTeam.png)
+![App Screenshot](/public/images/BurgerApp.png)
